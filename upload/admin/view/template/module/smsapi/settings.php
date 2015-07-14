@@ -60,17 +60,18 @@
                         <tr>
                             <td class="col-xs-7">
                                 <h4><?= $data['sms_options'] ?>:</h4>
-                                <h5><?= $data['replace_special_chars'] ?></h5>
-                                <h5><?= $data['send_fast'] ?></h5>
+                                <h5><label for="special_chars"><?= $data['replace_special_chars'] ?></label></h5>
+                                <h5><label for="fast"><?= $data['send_fast'] ?></label></h5>
                             </td>
                             <td class="col-xs-5">
                                 <div class="col-xs-12">
                                     <br>
                                     <input type="checkbox" name="specialChars"
-                                           value="1" <?php if ($data['special_chars']) echo 'checked'; ?>>
+                                           value="1" <?php if ($data['special_chars']) echo 'checked'; ?>
+                                           id="special_chars">
                                     <br>
                                     <input type="checkbox" name="fast"
-                                           value="1" <?php if ($data['fast']) echo 'checked'; ?>>
+                                           value="1" <?php if ($data['fast']) echo 'checked'; ?> id="fast">
                                 </div>
                             </td>
                         </tr>
@@ -130,9 +131,11 @@
                                 <div id="status">
                                     <?php foreach ($data['statuses'] as $status): ?>
                                         <br>
-                                        <input type="checkbox" name="check_list[<?= $status['status_id'] ?>]"
-                                               id="<?= $status['status_id'] ?>"
-                                               class="checkbox-to-hide" <?php if ($status['checked']) echo 'checked'; ?>> <?= $status['name'] ?>
+                                        <label>
+                                            <input type="checkbox" name="check_list[<?= $status['status_id'] ?>]"
+                                                   id="<?= $status['status_id'] ?>"
+                                                   class="checkbox-to-hide" <?php if ($status['checked']) echo 'checked'; ?>> <?= $status['name'] ?>
+                                        </label>
                                         <br>
                                         <div class="sentStatus" id="<?= $status['status_id'] ?>"
                                              style="margin-top: 5px;">
