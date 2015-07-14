@@ -1,7 +1,7 @@
 # smsapi-opencart
 Module which allows you to send SMS from your shop
 
-## Instalation
+## Installation
 0. Upload all of the content from the "upload" directory to the **root directory** of your shop
 0. In the administrator panel, go to: **Extensions > Modules > SMSAPI** and click Install
 
