@@ -1,5 +1,9 @@
 <?php
+// Heading
+$_['heading_title']       = 'SMSAPI - Powiadomienia SMS';
 
+// Text
+$_['text_module']         = 'Moduły';
 $_['text_edit']           = 'Edytuj moduł SMSAPI';
 $_['text_success']        = 'Zmiany zostały poprawnie zapisane!';
 $_['save_changes']        = 'Zapisz zmiany';
@@ -16,7 +20,7 @@ $_['change']              = 'Zmień';
 $_['broadcaster']         = 'Nadawca';
 $_['sms_options']         = 'Opcje wysyłki';
 $_['replace_special_chars']= 'Zastąp znaki specjalne';
-$_['send_fast']           = 'Wyślij fast';
+$_['send_fast']           = 'Wyślij z najwyższym priorytetem (UWAGA: wyższa cena wiadomości)';
 $_['owner_number']        = 'Numer właściciela';
 $_['insert_owner_number'] = 'Podaj numer telefonu właściciela sklepu (jeśli podajesz kilka numerów, to oddziel je przecinkami)';
 $_['inform_owner']        = 'Czy powiadamiać właściciela o nowym zamówieniu?';
@@ -49,6 +53,8 @@ $_['var_number']          = 'Numer zamówienia';
 $_['var_total_price']     = 'Całkowita wartość zamówienia';
 $_['var_status']          = 'Status zamówienia';
 $_['var_phone']           = 'Nr telefonu klienta';
+
+$_['Land.']               = 'Stac.';
 
 // Entry
 $_['entry_code']          = 'SMSAPI kod:';

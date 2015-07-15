@@ -20,7 +20,7 @@
                             <h5><?= $data['messages'] ?> PRO:</h5>
                             <h5><?= $data['messages'] ?> MMS:</h5>
                             <h5><?= $data['messages'] ?> VMS GSM:</h5>
-                            <h5><?= $data['messages'] ?> VMS Stac.:</h5>
+                            <h5><?= $data['messages'] ?> VMS <?= $data['Land.'] ?>:</h5>
                         </td>
                         <td class="col-xs-9">
                             <div class="col-xs-12">

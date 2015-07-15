@@ -1,7 +1,7 @@
 <?php
 
 // Heading
-$_['heading_title']       = 'SMSAPI';
+$_['heading_title']       = 'SMSAPI - SMS notifications';
 
 // Text
 $_['text_module']         = 'Modules';
@@ -54,6 +54,8 @@ $_['var_number']          = 'Order number';
 $_['var_total_price']     = 'Total value of the order';
 $_['var_status']          = 'Order status';
 $_['var_phone']           = 'Client number';
+
+$_['Land.']               = 'Land.';
 
 // Entry
 $_['entry_code']          = 'SMSAPI Code:';

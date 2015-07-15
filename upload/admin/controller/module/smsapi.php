@@ -171,6 +171,7 @@ class ControllerModuleSmsapi extends Controller
         $data['smsapi_send'] = $this->language->get('smsapi_send');
         $data['smsapi_settings'] = $this->language->get('smsapi_settings');
         $data['messages'] = $this->language->get('messages');
+		$data['Land.'] = $this->language->get('Land.');
         $data['api_history'] = $this->language->get('api_history');
         $data['no_history'] = $this->language->get('no_history');
         $data['send_sms_message'] = $this->language->get('send_sms_message');
