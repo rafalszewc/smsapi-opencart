@@ -18,17 +18,11 @@
                         <td class="col-xs-3">
                             <h5><?= $data['messages'] ?> ECO:</h5>
                             <h5><?= $data['messages'] ?> PRO:</h5>
-                            <h5><?= $data['messages'] ?> MMS:</h5>
-                            <h5><?= $data['messages'] ?> VMS GSM:</h5>
-                            <h5><?= $data['messages'] ?> VMS <?= $data['Land.'] ?>:</h5>
                         </td>
                         <td class="col-xs-9">
                             <div class="col-xs-12">
                                 <h5><?= $data['ecoCount'] ?></h5>
                                 <h5><?= $data['proCount'] ?></h5>
-                                <h5><?= $data['mmsCount'] ?></h5>
-                                <h5><?= $data['vmsGsmCount'] ?></h5>
-                                <h5><?= $data['vmsLandCount'] ?></h5>
                             </div>
                         </td>
                     </tr>
