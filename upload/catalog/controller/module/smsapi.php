@@ -51,7 +51,7 @@ class ControllerModuleSmsapi extends Controller
                 }
             }
 
-            if ($this->model_module_smsapi->get_settings()[0]['change_order_status'] && !$this->model_module_smsapi->get_repeat_order($order_info)) {
+            if ($this->model_module_smsapi->get_settings()[0]['change_order_status']) {
                 if ($this->model_module_smsapi->get_status($order_info['order_status_id'])[0]['checked']) {
                     $this->model_module_smsapi->set_order($order_info);
 
